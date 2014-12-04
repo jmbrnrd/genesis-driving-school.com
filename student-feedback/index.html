@@ -1,0 +1,85 @@
+---
+layout: base
+title: "Genesis Driving School : Student Testimonials"
+desc: "A friendly relaxed approach to driving lessons has helped to achieve a high pass rate and many happy students!"
+class: gds-page-feedback
+---
+
+{% jsonball data from file _ajax/data.json %}
+
+{% include nav.html %}
+
+<div class="gdt-hero gdt-hero-feedback">
+
+    <div class="container">
+
+        <h1><span class="icon-quotes-left"></span> They say...</h1>
+        <p>Everyone here passed their driving test with Genesis Driving School. The driving lessons have been a pleasure and I'm genuinely proud of our joint achievements. Congratulations!</p>
+
+    </div>
+
+</div>
+
+<div class="gdt-students">
+    <div class="container">
+        <ul class="list-unstyled list-inline">
+
+            {% for student in data.students %}
+
+            <li>
+                <img data-src="/imgs/students/{{ student.date }}-{{ student.name | downcase }}.jpg" src="/imgs/bg.02.png"
+                     alt="Photo: {{ student.name }} passed the driving test" width="480" height="320">
+                <blockquote>
+                    <p>
+                        {{ student.quote }}
+                    </p>
+                    <cite>
+                        {{ student.name | upcase }} - {{ student.date | date: %b - %Y }}
+                    </cite>
+                </blockquote>
+                {% if student.twitter %}
+                <a class="twttr" href="@{{ student.twitter }}" title="Tweet congrats to {{ student.name }}"><span
+                        class="icon-twitter-2"></span></a>
+                {% endif %}
+            </li>
+
+            {% endfor %}
+
+        </ul>
+    </div>
+</div>
+
+{% include footer.html %}
+
+<script>
+
+    // a handy shortcut for head.ready()
+    head(function() {
+
+        // Tweet
+        $('a.twttr').on('click', function (e) {
+
+            var tgt = $(this),
+                tweeturl = 'http://twitter.com/share?url=http://genesis-driving-school.com/feedback&via=CaryDeSilva&text=',
+                tweet = 'Congrats to ' + tgt.attr('href') + ' on passing your driving test -';
+
+            e.preventDefault();
+
+            window.open(tweeturl + tweet);
+
+        }).tooltip({placement: 'left'});
+
+        // Reveal the image
+        $(".gdt-students img").unveil(10, function() {
+
+            $(this).load(function() {
+                this.style.opacity = 1;
+            });
+
+        });
+    });
+
+
+</script>
+
+
