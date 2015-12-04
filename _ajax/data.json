@@ -1,5 +1,20 @@
 { "students": [
   {
+    "date":     "2015-12",
+    "name":     "Ellie",
+    "quote":    "Thank you so much Cary for helping me achieve this 1st time pass..couldn't ask for a better instructor  thanks again."
+  },
+  {
+    "date":     "2015-11",
+    "name":     "Josh",
+    "quote":    "Really enjoyed my lessons with Cary and a first time pass...highly recommended."
+  },
+  {
+    "date":     "2015-11",
+    "name":     "Kieran",
+    "quote":    "Wonderful instructor and a 1st time pass with just one minor...nearly perfect Cary."
+  },
+  {
     "date":     "2015-09",
     "name":     "Anna",
     "quote":    "Cary is a fantastic instructor passed 1st time thank you for your help and support."
