@@ -1,8 +1,18 @@
 { "students": [
   {
     "date":     "2015-12",
+    "name":     "Megan",
+    "quote":    "I had my lessons with Cary and was confident enough to pass in my own car. Thank you Cary."
+  },
+  {
+    "date":     "2015-12",
+    "name":     "Sarah",
+    "quote":    "Fantastic instructor thank you for helping me achieve a 1st time pass."
+  },
+  {
+    "date":     "2015-12",
     "name":     "Ellie",
-    "quote":    "Thank you so much Cary for helping me achieve this 1st time pass..couldn't ask for a better instructor  thanks again."
+    "quote":    "Thank you so much Cary for helping me achieve this 1st time pass..couldn't ask for a better instructor, thanks again."
   },
   {
     "date":     "2015-11",
