@@ -1,6 +1,16 @@
 { "students": [
   {
     "date":     "2016-03",
+    "name":     "Jack",
+    "quote":    "Cary thank you so much for helping me pass my test..Highly recommend."
+  },
+  {
+    "date":     "2016-03",
+    "name":     "Nick",
+    "quote":    "Wow thanks Cary I got my predicted 1st time pass..your the best thanks again!!"
+  },
+  {
+    "date":     "2016-03",
     "name":     "Becca",
     "quote":    "You cant get a better instructor I passed 1st time thanks Cary."
   },
