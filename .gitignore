@@ -3,3 +3,5 @@ _site/
 .publish/
 /imgs/genesis-assets.sketch
 fonts/icomoon-essential85767/fonts/
+
+node_modules/
