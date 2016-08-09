@@ -3,7 +3,7 @@ _site/
 .publish/
 node_modules/
 
-/imgs/genesis-assets.sketch
+imgs/genesis-assets.sketch
 fonts/icomoon-essential85767/fonts/
 
 
