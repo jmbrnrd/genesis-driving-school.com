@@ -1,9 +1,6 @@
-_site/
-.idea/
-.publish/
-node_modules/
-
-imgs/genesis-assets.sketch
-fonts/icomoon-essential85767/fonts/
-
-
+/_site/
+/.idea/
+/.publish/
+/node_modules/
+/imgs/genesis-assets.sketch
+/fonts/icomoon-essential85767/
