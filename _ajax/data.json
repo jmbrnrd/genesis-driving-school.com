@@ -1,5 +1,20 @@
 { "students": [
   {
+    "date":     "2017-07",
+    "name":     "Lauren",
+    "quote":    "Cary thank you so much in helping pass this test best instructor ever."
+  },
+  {
+    "date":     "2017-07",
+    "name":     "Miles",
+    "quote":    "Brilliant instructor thank you Cary highly recommend."
+  },
+  {
+    "date":     "2017-06",
+    "name":     "Nadia",
+    "quote":    "Thank you so much Cary..I so needed to pass this test."
+  },
+  {
     "date":     "2017-06",
     "name":     "Luc",
     "quote":    "Brilliant instructor... thanks Caz."
