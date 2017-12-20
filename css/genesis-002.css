@@ -58,3 +58,6 @@ a.btn-gdt.btn-gdt:hover,a.btn-gdt.btn-gdt:focus{background:#e64f19;color:#fff}a.
 .gdt-contacts li>a span{font-size:36px;vertical-align:middle;line-height:1.33}
 .gdt-badges li{margin:0}.gdt-badges li img{height:32px}
 @media (min-width:48em){.gdt-hero .container{padding-top:10px} .gdt-hero h1{font-size:4em} .gdt-hero p{font-size:1.75em} .gdt-hero.gdt-hero-home{background-image:url(../imgs/car.02.png);background-position:100% 10px;background-size:40%}.gdt-hero.gdt-hero-home p{padding-right:32%}}@media (min-width:64em){.gdt-badges.gdt-badges-vertical li{display:block;margin:15px 0 0}.gdt-badges.gdt-badges-vertical li img{height:64px}}
+.gdt-lead{
+    font-weight: 400;
+}
