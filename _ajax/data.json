@@ -1,6 +1,16 @@
 { "students": [
   {
     "date":     "2018-08",
+    "name":     "Olivia",
+    "quote":    "Cary your an amazing instructor couldn’t have done it without you... 1st time pass with just 3 minors thank you thank you thank you!"
+  },
+  {
+    "date":     "2018-08",
+    "name":     "Nicole",
+    "quote":    "Thank you so much for your help and guidance Cary ... I did it!!!"
+  },
+  {
+    "date":     "2018-08",
     "name":     "Issy",
     "quote":    "Cary thank you so much I’m so happy I’ve passed ... thank you for your help and support."
   },
