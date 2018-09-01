@@ -1,6 +1,16 @@
 { "students": [
   {
     "date":     "2018-08",
+    "name":     "Adam",
+    "quote":    "Smashed it Caz with just 2 minor faults thanks man."
+  },
+  {
+    "date":     "2018-08",
+    "name":     "Elly",
+    "quote":    "Caz thank you ... your the best!!!"
+  },
+  {
+    "date":     "2018-08",
     "name":     "Olivia",
     "quote":    "Cary your an amazing instructor couldn’t have done it without you... 1st time pass with just 3 minors thank you thank you thank you!"
   },
