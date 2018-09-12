@@ -3,6 +3,6 @@ baseurl: ""
 highlighter: true
 future: false
 markdown: redcarpet
-exclude: [".htaccess", "jekyll", "jekyll.html"]
+exclude: [".htaccess", "jekyll", "jekyll.html","node_modules","docs","student.pxm"]
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough"]
